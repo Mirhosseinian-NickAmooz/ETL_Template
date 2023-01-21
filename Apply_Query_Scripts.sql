@@ -25,7 +25,7 @@ select schema_name(tab.schema_id) as schema_name,
   order by schema_name,
         table_name
 go
---------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------- lklk -----------------
 --2. List of views with definition and comments
 --This query returns list of database views with their definition SQL and a comment.
 select schema_name(v.schema_id) as schema_name,
